@@ -1,4 +1,4 @@
-module decred.org/dcrctl
+module github.com/Decred-Next/dcrnctl
 
 go 1.17
 

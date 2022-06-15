@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        go: [1.17, 1.18]
+        go: [1.18]
     steps:
       - name: Set up Go
         uses: actions/setup-go@f6164bd8c8acb4a71fb2791a8b6c4024ff038dab #v3.0.0
@@ -28,3 +28,8 @@ jobs:
         env:
           GO111MODULE: "on"
         run: go test -v ./...
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: dcrnctl_linux_x64
+          path: dcrnctl
