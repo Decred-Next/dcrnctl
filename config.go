@@ -17,11 +17,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/decred/dcrd/dcrjson/v4"
-	"github.com/decred/dcrd/dcrutil/v4"
+	"github.com/Decred-Next/dcrnd/dcrjson/version4/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/version4/v8"
 
 	wallettypes "decred.org/dcrwallet/v2/rpc/jsonrpc/types"
-	dcrdtypes "github.com/decred/dcrd/rpc/jsonrpc/types/v3"
+	dcrdtypes "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version3/v8"
 
 	flags "github.com/jessevdk/go-flags"
 )
