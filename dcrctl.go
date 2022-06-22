@@ -16,7 +16,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	wallettypes "decred.org/dcrwallet/v2/rpc/jsonrpc/types"
+	wallettypes "github.com/Decred-Next/dcrnwallet/rpc/jsonrpc/types/version14/v8"
 	"github.com/Decred-Next/dcrnd/dcrjson/version4/v8"
 	dcrdtypes "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version3/v8"
 )
